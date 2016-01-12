@@ -1,0 +1,29 @@
+{
+  "name": "markdownotate",
+  "version": "1.0.0",
+  "description": "Markdown extension adding annotation capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfrdmn/node-markdownotate.git"
+  },
+  "keywords": [
+    "markdown",
+    "annotate",
+    "notes",
+    "tooltip"
+  ],
+  "author": "Sean Fridman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfrdmn/node-markdownotate/issues"
+  },
+  "homepage": "https://github.com/sfrdmn/node-markdownotate#readme",
+  "dependencies": {
+    "parsimmon": "^0.7.0",
+    "remark": "^3.1.0"
+  }
+}
