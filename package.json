@@ -1,5 +1,5 @@
 {
-  "name": "markdownotate",
+  "name": "remark-yaml-annotations",
   "version": "1.0.0",
   "description": "Markdown extension adding annotation capabilities",
   "main": "index.js",
@@ -8,22 +8,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sfrdmn/node-markdownotate.git"
+    "url": "git+https://github.com/sfrdmn/remark-yaml-annotations.git"
   },
   "keywords": [
     "markdown",
+    "yaml",
     "annotate",
-    "notes",
-    "tooltip"
+    "annotation",
+    "notes"
   ],
   "author": "Sean Fridman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sfrdmn/node-markdownotate/issues"
+    "url": "https://github.com/sfrdmn/remark-yaml-annotations/issues"
   },
-  "homepage": "https://github.com/sfrdmn/node-markdownotate#readme",
+  "homepage": "https://github.com/sfrdmn/remark-yaml-annotations#readme",
   "dependencies": {
-    "parsimmon": "^0.7.0",
-    "remark": "^3.1.0"
+    "js-yaml": "^3.5.5"
+  },
+  "peerDependencies": {
+    "remark": "^4.2.0"
+  },
+  "devDependencies": {
+    "remark": "^4.2.0",
+    "tape": "^4.5.1"
   }
 }
