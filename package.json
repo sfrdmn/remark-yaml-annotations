@@ -30,8 +30,14 @@
     "remark": "^4.2.0"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5",
     "remark": "^4.2.0",
-    "tape": "^4.5.1",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^4.3.5",
+    "tape": "^4.5.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
