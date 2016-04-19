@@ -1,3 +1,4 @@
+var assign = require('object-assign')
 var yaml = require('js-yaml')
 
 function whitespace (ch) {
@@ -125,7 +126,7 @@ function sequence (value) {
       var result = parsers[j](i, data)
       if (isError(result)) return result
       i = result[0]
-      if (result[1]) data = Object.assign(data, result[1])
+      if (result[1]) data = assign(data, result[1])
     }
     return [i, data]
   }

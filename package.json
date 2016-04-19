@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/sfrdmn/remark-yaml-annotations#readme",
   "dependencies": {
-    "js-yaml": "^3.5.5"
+    "js-yaml": "^3.5.5",
+    "object-assign": "^4.0.1"
   },
   "peerDependencies": {
     "remark": "^4.2.0"
