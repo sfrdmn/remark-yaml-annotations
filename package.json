@@ -1,14 +1,14 @@
 {
   "name": "remark-yaml-annotations",
-  "version": "1.0.0",
   "description": "Markdown extension adding annotation capabilities",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sfrdmn/remark-yaml-annotations.git"
+    "url": "https://github.com/sfrdmn/remark-yaml-annotations.git"
   },
   "keywords": [
     "markdown",
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "remark": "^4.2.0",
-    "tape": "^4.5.1"
+    "tape": "^4.5.1",
+    "semantic-release": "^4.3.5"
   }
 }
