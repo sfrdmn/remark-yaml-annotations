@@ -48,7 +48,7 @@ come in another plug-in (which I haven't gotten around to implementing)
 var remark = require('remark')
 var annotations = require('remark-yaml-annotations')
 
-var doc = remark().use(annotations).process(`
+var file = remark().use(annotations).process(`
 {BYAAAA!}[bya]
 
 [bya] {
@@ -81,8 +81,8 @@ remark()
   type: wikipedia
   title: Jean Baudrillard
 }
-`, function (err, file, doc) {
-  console.log(doc)
+`, function (err, file) {
+  console.log(file.contents)
 })
 
 function renderWikiAnnotations () {

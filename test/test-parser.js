@@ -79,6 +79,6 @@ test('test parsing', function (t) {
 })
 
 function run (input, fn) {
-  var parser = remark.use(annotations).use(function () { return fn })
+  var parser = remark().use(annotations).use(function () { return fn })
   parser.process(input)
 }
