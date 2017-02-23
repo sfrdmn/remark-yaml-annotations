@@ -28,7 +28,7 @@
     "object-assign": "^4.0.1"
   },
   "peerDependencies": {
-    "remark": "^5.0.1"
+    "remark": "^7.0.0"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.5",
