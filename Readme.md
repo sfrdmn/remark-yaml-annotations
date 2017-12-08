@@ -3,6 +3,10 @@
 
 [remark][remark] plug-in which extends Markdown with annotation capabilities
 
+## Dependencies currently out of date
+
+Please ping me if you're interested in using this and I'll make some time to update it
+
 ## huh?
 
 Annotation! It's pretty good. Let's say, for example, you have a blog post:
